@@ -1,12 +1,15 @@
 .news-article {
     background-color: white;
     border: 2px solid black;
-    height: 380px;
-    width: 65%;
+    height: 400px;
+    width: 45%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
-    height: 20%;
+    height: 45%;
     width: 100%
 }
 
