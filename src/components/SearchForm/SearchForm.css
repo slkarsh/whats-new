@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 96%;
+    position: absolute;
+    height: 80px;
+    float: right;
+    margin-left: 23%;
+}
+
+input {
+    width: 62%
+}
+
+button {
+    width: 20%
+}

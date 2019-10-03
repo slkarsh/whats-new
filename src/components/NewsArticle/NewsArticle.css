@@ -2,23 +2,26 @@
     background-color: white;
     border: 2px solid black;
     height: 400px;
-    width: 45%;
-    margin: 10px;
+    width: 43%;
+    margin: 10px 25px;
     display: flex;
     flex-direction: column;
+    padding: 12px;
 }
 
 img {
     height: 45%;
-    width: 100%
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 h3 {
-
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 p {
-
+    padding: 10px;
 }
 
 a {
