@@ -8,6 +8,7 @@ import './App.css';
 // import NewsArticle from '../NewsArticle/NewsArticle';
 import NewsContainer from '../NewsContainer/NewsContainer';
 import Menu from '../Menu/Menu'
+import SearchForm from '../SearchForm/SearchForm'
 
 class App extends Component {
   constructor() {
@@ -22,10 +23,21 @@ class App extends Component {
     }
   }
 
+  changeCurrent = (event) => {
+      event.preventDefault();
+      this.setState({ current: this.state[event.target.id]
+    })
+  }
+
+  checkId = (event) => {
+    console.log('id', event.target.id)
+  }
+
   render () {
     return (
       <div className='app'>
-        <Menu />
+        <SearchForm />
+        <Menu getId={this.checkId} changeCurrent={this.changeCurrent}/>
         <NewsContainer local={this.state.local} current={this.state.current} />
       </div>
     );

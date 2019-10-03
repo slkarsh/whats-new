@@ -3,16 +3,16 @@ import './Menu.css'
 
 // MENU COMPONENT CODE GOES HERE
 
-const Menu = () => {
+const Menu = ({ changeCurrent }) => {
     return (
         <nav>
             <h1>What's New?</h1>
             <ul>
-                <li id='local'>Local News</li>
-                <li id='entertainment'>Entertainment</li>
-                <li id='health'>Health</li>
-                <li id='science'>Science</li>
-                <li id='tech'>Technology</li>
+                <li id='local' onClick={changeCurrent}>Local News</li>
+                <li id='entertainment' onClick={changeCurrent}>Entertainment</li>
+                <li id='health' onClick={changeCurrent}>Health</li>
+                <li id='science' onClick={changeCurrent}>Science</li>
+                <li id='technology' onClick={changeCurrent}>Technology</li>
             </ul>
         </nav>
     )
