@@ -31,6 +31,7 @@ class App extends Component {
 
   checkId = (event) => {
     console.log('id', event.target.id)
+    console.log('hello')
   }
 
   render () {
