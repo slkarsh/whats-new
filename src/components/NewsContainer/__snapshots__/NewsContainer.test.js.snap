@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should match the snapshot when rendered correctly 1`] = `
+<main
+  className="NewsContainer"
+>
+  <NewsArticle
+    description="description 1"
+    headline="headline 1"
+    imgSrc="woof"
+    key="1"
+    link="woof dot com"
+  />
+  <NewsArticle
+    description="description 2"
+    headline="headline 2"
+    imgSrc="meow"
+    key="2"
+    link="meow dot com"
+  />
+</main>
+`;

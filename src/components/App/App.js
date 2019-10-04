@@ -38,7 +38,7 @@ class App extends Component {
       <div className='app'>
         <SearchForm />
         <Menu getId={this.checkId} changeCurrent={this.changeCurrent}/>
-        <NewsContainer local={this.state.local} current={this.state.current} />
+        <NewsContainer current={this.state.current} />
       </div>
     );
   }
