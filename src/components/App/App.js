@@ -19,26 +19,36 @@ class App extends Component {
       health,
       science, 
       technology,
-      current: local
+      current: local,
+      displayed: local
     }
   }
 
   changeCurrent = (event) => {
       event.preventDefault();
-      this.setState({ current: this.state[event.target.id]
+      
+      this.setState({ current: this.state[event.target.id], displayed: this.state[event.target.id]
     })
+    console.log('click state change', this.state.current)
   }
 
-  checkId = (event) => {
-    console.log('id', event.target.id)
+  searchArticles = (searchInput) => {
+    let searchResult = this.state.current.filter(article => {
+      return article.headline.toUpperCase().includes(searchInput)
+    })
+    console.log('current state', this.state.current)
+    console.log('displayed state', this.state.displayed)
+    this.setState({ displayed: searchResult})
+    console.log('another display', this.state.displayed)
+    return searchResult
   }
 
   render () {
     return (
       <div className='app'>
-        <SearchForm />
-        <Menu getId={this.checkId} changeCurrent={this.changeCurrent}/>
-        <NewsContainer local={this.state.local} current={this.state.current} />
+        <SearchForm searchArticles={this.searchArticles} />
+        <Menu changeCurrent={this.changeCurrent}/>
+        <NewsContainer displayed={this.state.displayed} />
       </div>
     );
   }
