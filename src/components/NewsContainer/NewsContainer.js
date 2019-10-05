@@ -4,8 +4,8 @@ import NewsArticle from '../NewsArticle/NewsArticle'
 
 // NEWSCONTAINER COMPONENT CODE GOES HERE
 
-const NewsContainer = ({ current }) => {
-    const displayArticles = current.map(currentNews => {
+const NewsContainer = ({ displayed }) => {
+    const displayArticles = displayed.map(currentNews => {
         return (
             <NewsArticle
                 key={currentNews.id}

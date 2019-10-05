@@ -6,7 +6,8 @@ header {
     position: absolute;
     height: 80px;
     float: right;
-    margin-left: 23%;
+    margin-left: 26%;
+    border: 2px solid #dedcde;
 }
 
 input {
