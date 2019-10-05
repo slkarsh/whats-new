@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should match the snapshot when rendered correctly 1`] = `
+<article
+  className="news-article"
+>
+  <img
+    src="www.fakeurl.com"
+  />
+  <h3>
+    Today is Thursday
+  </h3>
+  <p>
+    tomorrow will be Friday
+  </p>
+  <a
+    href="www.linktoarticle.com"
+  >
+    Link to article
+  </a>
+</article>
+`;
