@@ -26,20 +26,15 @@ class App extends Component {
 
   changeCurrent = (event) => {
       event.preventDefault();
-      
       this.setState({ current: this.state[event.target.id], displayed: this.state[event.target.id]
     })
-    console.log('click state change', this.state.current)
   }
 
   searchArticles = (searchInput) => {
     let searchResult = this.state.current.filter(article => {
       return article.headline.toUpperCase().includes(searchInput)
     })
-    console.log('current state', this.state.current)
-    console.log('displayed state', this.state.displayed)
     this.setState({ displayed: searchResult})
-    console.log('another display', this.state.displayed)
     return searchResult
   }
 
