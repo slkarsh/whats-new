@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match the snapshot when data is passed correctly 1`] = `
+<div
+  className="app"
+>
+  <SearchForm
+    searchArticles={[Function]}
+  />
+  <Menu
+    changeCurrent={[Function]}
+  />
+  <NewsContainer
+    displayed={
+      Array [
+        Object {
+          "description": "Classic-rock band The Who has postponed its Denver concert, set for Sunday, Sept. 29, after an illness robbed singer Roger Daltrey of his voice, the band said on Twitter.",
+          "headline": "The Who postpones Denver Concert at the Pepsi Center",
+          "id": 1,
+          "img": "https://theknow.denverpost.com/wp-content/uploads/2016/03/CDXXTHEWHODSC_4082x.jpg",
+          "url": "https://theknow.denverpost.com/2019/09/27/the-who-postpones-denver-concert/225182/",
+        },
+        Object {
+          "description": "The 24-foot-tall chicken skeleton towers over the people who pass through the main hall of the Denver Central Library. Skeletal wings extend to the side, and it looks downright prehistoric.",
+          "headline": "Giant Chicken Skeleton In Denver’s Central Library Stands For More Than Just Dinner",
+          "id": 2,
+          "img": "https://i0.wp.com/wp-cpr.s3.amazonaws.com/uploads/2019/09/cpr-swolf_black-cube-monumental_DSC8170.jpg?resize=2064,1376",
+          "url": "https://www.cpr.org/2019/09/27/giant-chicken-skeleton-in-denvers-central-library-stands-for-more-than-just-dinner/",
+        },
+        Object {
+          "description": "Car2Go, the popular car-sharing and rental company, will be leaving Denver at the end of the October, the company announced Friday.",
+          "headline": "Car2Go leaving Denver amid company shake-up",
+          "id": 3,
+          "img": "https://www.denverpost.com/wp-content/uploads/2017/06/cd20carsharingdsc_8786.jpg?w=859",
+          "url": "https://www.denverpost.com/2019/09/27/car2go-leaving-denver/",
+        },
+        Object {
+          "description": "A colorful mural outside Ellis Elementary School pays tribute to a little boy who was known for his smile and kindness to other students.",
+          "headline": "Mural outside school pays tribute to Denver boy after tragic death",
+          "id": 4,
+          "img": "https://ewscripps.brightspotcdn.com/dims4/default/4f3b905/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2Ff2%2F57%2Fcca3119f42c796342f6a8cbf6358%2Fcaden-mural.jpg",
+          "url": "https://www.thedenverchannel.com/news/local-news/mural-outside-school-pays-tribute-to-denver-boy-after-tragic-death",
+        },
+        Object {
+          "description": "A motorcyclist was killed in a crash near East 17th Avenue and Park Avenue in Denver early Friday morning.",
+          "headline": "Motorcyclist killed in crash near Capitol Hill in Denver",
+          "id": 5,
+          "img": "https://localtvkdvr.files.wordpress.com/2019/09/fatal-motorcycle.jpeg?quality=85&strip=all&w=800&h=450&crop=1",
+          "url": "https://kdvr.com/2019/09/27/motorcyclist-killed-in-crash-near-capitol-hill-in-denver/",
+        },
+        Object {
+          "description": "Troy Guard, who also owns Guard and Grace, Mister Tuna, Tag and other restaurants, announces a beer and market hall",
+          "headline": "The owner of Los Chingones is planning a food hall, beer garden and brewery in Denver Tech Center",
+          "id": 6,
+          "img": "https://www.denverpost.com/wp-content/uploads/2019/09/CD10TROYGUARD_AC33486x.jpg?w=781",
+          "url": "https://www.denverpost.com/2019/09/27/food-hall-denver-tech-center-troy-guard/",
+        },
+        Object {
+          "description": "On Wednesday, a publicist for PokéBar said the Denver stop of the nationally traveling event had been canceled, citing an unspecified directive from Pokémon Nintendo",
+          "headline": "Pokémon pop-up bar canceled after organizer cites pushback from Nintendo",
+          "id": 7,
+          "img": "https://theknow.denverpost.com/wp-content/uploads/2019/09/Pokeman2.jpg",
+          "url": "https://theknow.denverpost.com/2019/09/26/pokebar-pokemon-popup-denver-canceled/225040/",
+        },
+        Object {
+          "description": "Medicine Man, a Denver-area dispensary chain with four stores across the state, has halted sales of select vaporizer products, specifically pre-filled concentrate cartridges containing propylene glycol or vitamin E acetate.",
+          "headline": "Medicine Man Dispensaries Halt Sales of Select Vape Products",
+          "id": 8,
+          "img": "https://images1.westword.com/imager/u/745xauto/11494355/mason_jar_winter_collins20180216_049.jpg",
+          "url": "https://www.westword.com/marijuana/denver-marijuana-dispensary-pulls-select-vape-products-from-shelves-11494353",
+        },
+      ]
+    }
+  />
+</div>
+`;

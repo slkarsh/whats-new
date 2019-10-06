@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   changeCurrent = (event) => {
-      event.preventDefault();
+      // event.preventDefault();
       this.setState({ current: this.state[event.target.id], displayed: this.state[event.target.id]
     })
   }
