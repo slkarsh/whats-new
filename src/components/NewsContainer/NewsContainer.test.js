@@ -9,7 +9,7 @@ describe('NewsContainer', () => {
         {id: 2, headline: 'headline 2', description: 'description 2', img: 'meow', url: 'meow dot com'} 
         ]
         const wrapper = shallow(<NewsContainer
-            current = {mockCurrent}
+            displayed = {mockCurrent}
              />)
         expect(wrapper).toMatchSnapshot()
     })

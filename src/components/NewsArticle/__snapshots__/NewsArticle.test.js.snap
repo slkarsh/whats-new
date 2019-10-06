@@ -5,6 +5,7 @@ exports[`NewsArticle should match the snapshot when rendered correctly 1`] = `
   className="news-article"
 >
   <img
+    alt="Image of Today is Thursday"
     src="www.fakeurl.com"
   />
   <h3>
@@ -16,7 +17,7 @@ exports[`NewsArticle should match the snapshot when rendered correctly 1`] = `
   <a
     href="www.linktoarticle.com"
   >
-    Link to article
+    Read more here
   </a>
 </article>
 `;

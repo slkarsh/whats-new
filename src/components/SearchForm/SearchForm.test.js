@@ -22,4 +22,13 @@ describe('SearchForm', () => {
 
         expect(wrapper.state('input')).toEqual(expectedResult)
     })
+
+    it('should update state to an empty string when resetSearchBar is called', () => {
+        const mockState = {input: 'woof'}
+        wrapper.setState(mockState)
+
+        wrapper.instance().resetSearchBar()
+
+        expect(wrapper.state('input')).toEqual('')
+    })
 })
