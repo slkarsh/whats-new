@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 96%;
+    width: 74%;
     position: absolute;
     height: 80px;
     float: right;
@@ -11,7 +11,7 @@ header {
 }
 
 input {
-    width: 62%;
+    width: 84%;
     font-size: 1.4em;
 }
 
