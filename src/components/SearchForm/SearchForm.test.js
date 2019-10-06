@@ -31,4 +31,15 @@ describe('SearchForm', () => {
 
         expect(wrapper.state('input')).toEqual('')
     })
+
+    it('should call resetSearchBar when searchArticles is called', () => {
+        const mockEvent = {preventDefault: jest.fn()}
+        wrapper.instance().resetSearchBar = jest.fn()
+        const mockState = ({input: 'THE WHO'})
+        wrapper.setState(mockState)
+
+        wrapper.instance().searchArticles(mockEvent)
+
+        expect(wrapper.instance().resetSearchBar).toHaveBeenCalled()
+    })
 })
