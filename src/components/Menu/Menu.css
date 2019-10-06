@@ -29,6 +29,8 @@ li {
 }
 
 li:hover {
-    background: orange;
+    background: #989da6;
     cursor: pointer;
+    height: 50px;
+    width: 100%;
 }

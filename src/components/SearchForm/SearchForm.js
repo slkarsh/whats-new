@@ -25,17 +25,24 @@ class SearchForm extends Component {
     this.resetSearchBar()
   }
 
+  keyPressed = event => {
+      if (event.key === 'Enter') {
+          this.searchArticles(event);
+      }
+  }
+
     render() {
         return(
             <header>
             <input 
                 type='text' 
-                placeholder='Search here'
+                placeholder='Search articles'
                 name='search'
                 value={this.state.input}
                 onChange={this.handleChange}
+                onKeyPress={this.keyPressed}
             />
-            <button onClick={event => this.searchArticles(event)}>Search here</button>
+            <button onClick={event => this.searchArticles(event)}>Search</button>
         </header>
         )
         
