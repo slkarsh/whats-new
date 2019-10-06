@@ -12,7 +12,7 @@ class SearchForm extends Component {
     }
 
     handleChange = (event) => {
-        this.setState({input: [event.target.value.toUpperCase()]})
+        this.setState({input: event.target.value.toUpperCase()})
     }
 
     resetSearchBar = () => {
