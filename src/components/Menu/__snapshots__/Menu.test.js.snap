@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should match the snapshot when rendered correctly 1`] = `
+<nav>
+  <h1>
+    What's New?
+  </h1>
+  <ul>
+    <li
+      id="local"
+    >
+      Local News
+    </li>
+    <li
+      id="entertainment"
+    >
+      Entertainment
+    </li>
+    <li
+      id="health"
+    >
+      Health
+    </li>
+    <li
+      id="science"
+    >
+      Science
+    </li>
+    <li
+      id="technology"
+    >
+      Technology
+    </li>
+  </ul>
+</nav>
+`;
