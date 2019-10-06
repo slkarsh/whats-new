@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
 import { shallow } from 'enzyme';
 import local from '../../data/local';
-import science from '../../data/science';
+
 
 describe('App', () => {
 
@@ -22,8 +21,6 @@ describe('App', () => {
         id: 'science'
       }
     }
-  const expectedNewState = 'science';
-
     wrapper.instance().changeCurrent(mockEvent)
 
     expect(wrapper.state('current').length).toEqual(8);
